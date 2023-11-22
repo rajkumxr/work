@@ -1,0 +1,892 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-color: rgb(16, 26, 43);
+}
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    z-index: 100 ;
+}
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: saturate(100%) blur(20px);
+    z-index: -1;
+}
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+}
+
+.navbar a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin-left: 60px;
+    font-family: 'rubik', sans-serif;
+}
+#check{
+    display: none;
+}
+.icons{
+    position: absolute;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.heading{
+    font-size: 48px;
+    font-weight: 800;
+    margin: 8px 64px;
+    margin-top: 32px;
+    max-width: 1000px;
+    color: #ffffff;
+}
+.para{
+    font-size: 24px;
+    font-family: 'rubik', sans-serif;
+    margin: 0px 64px;
+    margin-bottom: 48px;
+    color: rgb(160, 174, 192);
+    max-width: 1000px;
+}
+.selected{
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0px 64px 32px;
+    color: #ffffff;
+}
+
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 64px 64px;
+}
+
+#moneytracker{
+    width: 48%;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+}
+#moneytracker .img{
+    height: 430px;
+    background-image: url(./assets/Moneytracker.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 32px;
+    border-radius: 2px;
+}
+#moneytracker h6{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: white;
+}
+#moneytracker p{
+    color: rgb(160, 174, 192);
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+}
+#website h6{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: white;
+}
+#website p{
+    color: rgb(160, 174, 192);
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+}
+#website{
+    width: 48%;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+}
+#website .img{
+    height: 430px;
+    background-image: url(./assets/Website.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 32px;
+    border-radius: 2px;
+}
+
+
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 64px 64px;
+}
+
+#isro{
+    width: 48%;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+}
+#isro .img{
+    height: 430px;
+    background-image: url(./assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 32px;
+    border-radius: 2px;
+}
+#isro h6{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: white;
+}
+#isro p{
+    color: rgb(160, 174, 192);
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+}
+#covid h6{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: white;
+}
+#covid p{
+    color: rgb(160, 174, 192);
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+}
+#covid{
+    width: 48%;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+}
+#covid .img{
+    height: 430px;
+    background-image: url(./assets/Bg\ covid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 32px;
+    border-radius: 2px;
+}
+
+.footer hr{
+    opacity: 0.1;
+    color: #8E8E93;
+    margin-bottom: 32px;
+}
+.footer{
+    /* position: absolute;
+    bottom: 0;
+    top: 100%;
+    left: 0;
+    right: 0;  */
+    margin: 0px 64px;
+}
+.footer .bottom-icons a{
+    color: white;
+}
+#bottom-text{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
+}
+.bottom-icons{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.bottom-icons a{
+    width: 80px;
+    text-align: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social .bottom-icons i{
+    padding: 10px;
+}
+
+.me-section{
+    margin: 0px 64px;
+    margin-bottom: 64px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about{
+    font-size: 42px;
+    font-weight: 800;
+    margin: 32px 64px;
+    display: block;
+    color: white;
+}
+.me{
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.myself{
+    margin-left: 64px;
+    display: block;
+}
+.myself p{
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+    color: rgb(160, 174, 192)
+}
+
+.question{
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0px 64px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.hobbies{
+    margin: 0px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+    color: #F2F2F7;
+}
+
+#cricket{
+    width: 46%;
+}
+#music{
+    width: 46%;
+}
+
+#cricket h6{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+#cricket p{
+    color: rgb(160, 174, 192);
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+}
+
+#music h6{
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+#music p{
+    color: rgb(160, 174, 192);
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+}
+.social .bottom-icons i:hover{
+    background-color: rgba(51, 58, 96, 0.441);
+    border-radius: 4px;
+}
+
+.head{
+    height: 100vh;
+    color: rgb(160, 174, 192);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1312px) {
+    #moneytracker .img{
+        height: 370px;
+        background-image: url(./assets/Moneytracker.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 32px;
+        border-radius: 2px;
+    }
+    #website .img{
+        height: 370px;
+        background-image: url(./assets/Website.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 32px;
+        border-radius: 2px;
+    }
+
+    #isro .img{
+        height: 370px;
+        background-image: url(./assets/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 32px;
+        border-radius: 2px;
+    }
+    #covid .img{
+        height: 370px;
+        background-image: url(./assets/Bg\ covid.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 32px;
+        border-radius: 2px;
+    }
+    
+    .me-section{
+        margin: 0px 64px;
+        margin-bottom: 64px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .me{
+        width: 400px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 2px;
+    }
+    .myself{
+        font-size: 16px;
+        margin-left: 64px;
+        display: block;
+        color: #F2F2F7;
+        text-overflow: clip;
+    }
+    #cricket p{
+        font-size: 16px;
+    }
+    #music p{
+        font-size: 16px;
+    }
+    .social .bottom-icons i:hover{
+        background-color: rgba(51, 58, 96, 0.441);
+        border-radius: 4px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .header{
+        padding: 20px 32px;
+    }
+    .heading{
+        font-size: 48px;
+        font-weight: 800;
+        margin: 8px 32px;
+        margin-top: 32px;
+        max-width: 600px;
+    }
+    .para{
+        font-size: 22px;
+        font-family: 'rubik', sans-serif;
+        margin: 0px 32px;
+        margin-bottom: 48px;
+        color: rgb(160, 174, 192);
+        max-width: 600px;
+    }
+    .selected{
+        font-size: 36px;
+        font-weight: 800;
+        margin: 0px 32px 32px;
+        color: #ffffff;
+    }
+    
+    .row-1{
+        display: block;
+        margin: 0px 32px;
+    }
+    #moneytracker{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    #moneytracker .img{
+        height: 460px;
+        background-image: url(./assets/Moneytracker.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 24px;
+        border-radius: 2px;
+    }
+    #moneytracker h6{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 8px;
+        color: white;
+    }
+    #moneytracker p{
+        font-size: 20px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 32px;
+    }
+    #website{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    #website .img{
+        height: 520px;
+        background-image: url(./assets/Website.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 24px;
+        border-radius: 2px;
+    }
+    #website h6{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 8px;
+        color: white;
+    }
+    #website p{
+        font-size: 20px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 32px;
+    }
+
+    .row-2{
+        display: block;
+        margin: 0px 32px;
+    }
+    #isro{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    #isro .img{
+        height: 520px;
+        background-image: url(./assets/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 24px;
+        border-radius: 2px;
+    }
+    #isro h6{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 8px;
+        color: white;
+    }
+    #isro p{
+        font-size: 20px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 32px;
+    }
+    #covid{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    #covid .img{
+        height: 520px;
+        background-image: url(./assets/Bg\ covid.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 24px;
+        border-radius: 2px;
+    }
+    #covid h6{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 8px;
+        color: white;
+    }
+    #covid p{
+        font-size: 20px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 32px;
+    }
+    .about{
+        font-size: 40px;
+        font-weight: 800;
+        margin: 32px 32px;
+    }
+    .me-section{
+        margin: 0px 32px;
+        height: 100%;
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .me{
+        width: 650px;
+        height: 700px;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+        margin-bottom: 32px;
+        border-radius: 2px;
+    }
+    .myself{
+        margin: 0px 32px;
+        margin-bottom: 32px;
+        display: block;
+        font-size: 20px;
+        height: 100%;
+    }
+    .question{
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0px 32px;
+        margin-bottom: 32px;
+    }
+    .hobbies{
+        margin: 0px 32px;
+        display: block;
+        margin-bottom: 32px;
+    }
+    #cricket h6{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+    #cricket p{
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    #music h6{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+    #music p{
+        font-size: 20px;
+        margin-bottom: 32px;
+    }
+    #cricket{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #music{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .footer{
+        margin: 0px 32px;
+    }
+    #bottom-text{
+        text-align: center;
+        font-size: 22px;
+        margin: 16px;
+    }
+    .bottom-icons a{
+        width: 80px;
+        font-size: 22px;
+    }
+
+}
+@media (max-width: 688px) {
+    .icons{
+        display: inline-flex;
+    }
+    #check:checked~.icons #menu-icon{
+        display: none;
+    }
+    .icons #close-icon{
+        display: none;
+    }
+    #check:checked~.icons #close-icon{
+        display: block;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: transparent;
+        backdrop-filter: blur(70px);
+        overflow: hidden;
+        transition: 0.3s ease;
+    }
+    #check:checked~.navbar{
+        height: 170px;
+    }
+    .navbar a {
+        display: block;
+        font-size: 22px;
+        margin: 20px;
+        text-align: center;
+    }
+    #bottom-text{
+        text-align: center;
+        font-size: 20px;
+        margin: 16px;
+    }
+    .bottom-icons a{
+        width: 80px;
+        font-size: 18px;
+    }
+    .footer{
+        margin: 0px 32px;
+    }
+    .heading{
+        font-size: 34px;
+        font-weight: 800;
+        margin: 8px 32px;
+    }
+    .para{
+        font-size: 18px;
+        font-family: 'rubik', sans-serif;
+        margin: 0px 32px;
+        margin-bottom: 28px;
+        color: rgb(160, 174, 192);
+    }
+    .selected{
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0px 32px 16px;
+        color: #ffffff;
+    }
+    
+    .row-1{
+        display: block;
+        margin: 0px 32px 16px;
+    }
+    #moneytracker{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    #moneytracker .img{
+        height: 220px;
+        background-image: url(./assets/Moneytracker.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 16px;
+        border-radius: 2px;
+    }
+    #moneytracker h6{
+        font-size: 26px;
+        font-weight: 800;
+        margin-bottom: 8px;
+        color: white;
+    }
+    #moneytracker p{
+        font-size: 20px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 32px;
+    }
+    #website{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    #website .img{
+        height: 220px;
+        background-image: url(./assets/Website.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 16px;
+        border-radius: 2px;
+    }
+    #website h6{
+        font-size: 26px;
+        font-weight: 800;
+        margin-bottom: 8px;
+        color: white;
+    }
+    #website p{
+        font-size: 20px;
+        color: rgb(160, 174, 192);
+    }
+
+    .row-1{
+        display: block;
+        margin: 0px 32px 16px;
+    }
+    #isro{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    #isro .img{
+        height: 220px;
+        background-image: url(./assets/bg.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 16px;
+        border-radius: 2px;
+    }
+    #isro h6{
+        font-size: 26px;
+        font-weight: 800;
+        margin-bottom: 8px;
+        color: white;
+    }
+    #isro p{
+        font-size: 20px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 32px;
+    }
+    #covid{
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+    }
+    #covid .img{
+        height: 220px;
+        background-image: url(./assets/Bg\ covid.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-bottom: 16px;
+        border-radius: 2px;
+    }
+    #covid h6{
+        font-size: 26px;
+        font-weight: 800;
+        margin-bottom: 8px;
+        color: white;
+    }
+    #covid p{
+        font-size: 20px;
+        color: rgb(160, 174, 192);
+    }
+    .about{
+        font-size: 36px;
+        font-weight: 800;
+        margin: 16px 32px;
+    }
+    .me-section{
+        margin: 0px 32px;
+        height: 100%;
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .me{
+        width: 350px;
+        height: 400px;
+        object-fit: cover;
+        display: block;
+        margin: auto;
+        margin-bottom: 32px;
+        border-radius: 2px;
+    }
+    .myself{
+        margin: 0px 32px;
+        margin-bottom: 32px;
+        display: block;
+        height: 100%;
+    }
+    .myself p{
+        font-size: 20px;
+    }
+    .question{
+        font-size: 30px;
+        font-weight: 800;
+        margin: 0px 32px;
+        margin-bottom: 16px;
+    }
+    .hobbies{
+        margin: 0px 32px;
+        display: block;
+        margin-bottom: 32px;
+    }
+    #cricket h6{
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+    #cricket p{
+        font-size: 20px;
+    }
+    #music h6{
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 16px;
+    }
+    #music p{
+        font-size: 20px;
+    }
+    #cricket{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    #music{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+.head{
+    height: 700px;
+    color: rgb(160, 174, 192);
+    text-align: center;
+}
+}
+
+
