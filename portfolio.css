@@ -11,7 +11,7 @@
 
 body{
     min-height: 100vh;
-    background-color: rgb(16, 26, 43);
+    background-color: rgb(10, 13, 23);
 }
 .header{
     position: sticky;
@@ -62,22 +62,68 @@ body{
     cursor: pointer;
     display: none;
 }
-
+.main{
+    height: 90vh;
+}
+#memoji{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#memoji-photo{
+    height: 264px;
+    width: 264px;
+    background-image: url(./assets/memoji.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+    border-radius: 50%;
+}
 .heading{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 800;
-    margin: 8px 64px;
-    margin-top: 32px;
+    margin:auto;
     max-width: 1000px;
     color: #ffffff;
+    text-align: center;
 }
 .para{
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'rubik', sans-serif;
-    margin: 0px 64px;
-    margin-bottom: 48px;
+    margin: auto;
     color: rgb(160, 174, 192);
     max-width: 1000px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+#navbutton{
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dive-in{
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    font-family: 'rubik', sans-serif;
+    padding: 12px 16px;
+    border-radius: 4px;
+    background-image: linear-gradient(#3f78e1, #0b50c0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.dive-in:hover{
+    background-image: linear-gradient(#2d67d3, #0b47a8);
+    cursor: pointer;
+}
+.dive-in #arrow-down{
+    font-size: 24px;
+    padding-left: 4px;
 }
 .selected{
     font-size: 36px;

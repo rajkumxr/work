@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="/assets/mylogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -26,8 +27,18 @@
         </nav>
     </header>
     <main data-aos="zoom" data-aos-delay="500">
-        <h2 class="heading" id="element"></h2>
-        <p class="para">I'm currently working on multiple projects, actively improving and developing them.</p>
+        <div class="main">
+            <div id="memoji">
+                <div id="memoji-photo"></div>
+            </div>
+            <h2 class="heading" id="element"></h2>
+            <p class="para">I'm currently working on multiple projects, actively improving and developing them.</p>
+            <div id="navbutton">
+                <button class="dive-in">Dive in
+                    <i class='bx bx-chevron-down' id="arrow-down"></i>
+                </button>
+            </div>
+        </div>
         <h5 class="selected">Selected Work</h5>
         <div class="row-1">
             <a href="moneytraker.html" id="moneytracker">
@@ -84,12 +95,12 @@
     <script>
         AOS.init({
             offset: 300,
-            duration: 732,
+            duration: 800,
             easing: 'ease',
         });
         var typed = new Typed('#element', {
-            strings: ["Designing with precision to create a world of effortless interactions."],
-            typeSpeed: 48,
+            strings: ["Hi, I'm Raj Kumar, a UX Designer. I focus on making things easy to use and visually appealing!"],
+            typeSpeed: 34,
         });
     </script>
 </body>
