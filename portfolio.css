@@ -65,9 +65,9 @@ body{
     cursor: pointer;
     display: none;
 }
-.main{
-    /* height: 100vh; */
-}
+/* .main{
+    height: 100vh;
+} */
 #memoji{
     display: flex;
     align-items: center;
@@ -743,9 +743,9 @@ body{
     .footer{
         margin: 0px 32px;
     }
-    .main{
-        /* height: 100vh; */
-    }
+    /* .main{
+        height: 100vh;
+    } */
     #memoji-photo{
         height: 264px;
         width: 264px;
