@@ -91,6 +91,7 @@ body{
     max-width: 1024px;
     color: #ffffff;
     text-align: center;
+    min-height: 104px;
 }
 .para{
     font-size: 22px;
@@ -490,6 +491,7 @@ body{
         text-align: center;
         margin: auto;
         max-width: 664px;
+        min-height: 249px;
     }
     .para{
         font-size: 22px;
@@ -754,6 +756,7 @@ body{
         font-size: 28px;
         font-weight: 800;
         margin: 0px 16px;
+        min-height: 148px;
     }
     .para{
         font-size: 18px;
