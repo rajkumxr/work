@@ -735,6 +735,7 @@ body{
     }
     .main{
         height: 100vh;
+        background-color: transparent;
     }
     #memoji-photo{
         height: 264px;
@@ -785,7 +786,7 @@ body{
         color: white;
     }
     #moneytracker p{
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(160, 174, 192);
         margin-bottom: 32px;
     }
@@ -811,7 +812,7 @@ body{
         color: white;
     }
     #website p{
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(160, 174, 192);
     }
 
@@ -841,7 +842,7 @@ body{
         color: white;
     }
     #isro p{
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(160, 174, 192);
         margin-bottom: 32px;
     }
@@ -867,7 +868,7 @@ body{
         color: white;
     }
     #covid p{
-        font-size: 20px;
+        font-size: 18px;
         color: rgb(160, 174, 192);
     }
     .about{
@@ -898,7 +899,7 @@ body{
         height: 100%;
     }
     .myself p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .question{
         font-size: 30px;
@@ -917,7 +918,7 @@ body{
         margin-bottom: 16px;
     }
     #cricket p{
-        font-size: 20px;
+        font-size: 18px;
     }
     #music h6{
         font-size: 28px;
@@ -925,7 +926,7 @@ body{
         margin-bottom: 16px;
     }
     #music p{
-        font-size: 20px;
+        font-size: 18px;
     }
     #cricket{
         width: 100%;
