@@ -752,6 +752,9 @@ body{
         margin: 0px 16px;
         color: rgb(160, 174, 192);
     }
+    #navbutton{
+        padding: 48px;
+    }
     #selected{
         font-size: 30px;
         font-weight: 800;
