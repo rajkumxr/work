@@ -63,12 +63,13 @@ body{
     display: none;
 }
 .main{
-    height: 90vh;
+    height: 100vh;
 }
 #memoji{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 16px 0px;
 }
 #memoji-photo{
     height: 264px;
@@ -78,14 +79,13 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-origin: content-box;
-    margin-bottom: 16px;
     border-radius: 50%;
 }
 .heading{
     font-size: 40px;
     font-weight: 800;
     margin:auto;
-    max-width: 1000px;
+    max-width: 1024px;
     color: #ffffff;
     text-align: center;
 }
@@ -94,7 +94,7 @@ body{
     font-family: 'rubik', sans-serif;
     margin: auto;
     color: rgb(160, 174, 192);
-    max-width: 1000px;
+    max-width: 1024px;
     text-align: center;
     padding-bottom: 32px;
 }
@@ -125,7 +125,7 @@ body{
     font-size: 24px;
     padding-left: 4px;
 }
-.selected{
+#selected{
     font-size: 36px;
     font-weight: 800;
     margin: 0px 64px 32px;
@@ -477,19 +477,19 @@ body{
     .heading{
         font-size: 48px;
         font-weight: 800;
-        margin: 8px 32px;
-        margin-top: 32px;
-        max-width: 600px;
+        text-align: center;
+        margin: auto;
+        max-width: 664px;
     }
     .para{
         font-size: 22px;
         font-family: 'rubik', sans-serif;
-        margin: 0px 32px;
-        margin-bottom: 48px;
+        text-align: center;
+        margin: auto;
         color: rgb(160, 174, 192);
-        max-width: 600px;
+        max-width: 664px;
     }
-    .selected{
+    #selected{
         font-size: 36px;
         font-weight: 800;
         margin: 0px 32px 32px;
@@ -733,23 +733,30 @@ body{
     .footer{
         margin: 0px 32px;
     }
+    .main{
+        height: 100vh;
+    }
+    #memoji-photo{
+        height: 264px;
+        width: 264px;
+    }
     .heading{
-        font-size: 34px;
+        font-size: 28px;
         font-weight: 800;
-        margin: 8px 32px;
+        margin: 0px 16px;
     }
     .para{
         font-size: 18px;
         font-family: 'rubik', sans-serif;
-        margin: 0px 32px;
-        margin-bottom: 28px;
+        margin: 0px 16px;
         color: rgb(160, 174, 192);
     }
-    .selected{
+    #selected{
         font-size: 30px;
         font-weight: 800;
         margin: 0px 32px 16px;
         color: #ffffff;
+        display: block;
     }
     
     .row-1{
