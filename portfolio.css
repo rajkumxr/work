@@ -268,6 +268,92 @@ body{
     border-radius: 2px;
 }
 
+
+
+/* Writing */
+#line1{
+    opacity: 0.1;
+    color: #8E8E93;
+    margin: 0px 64px 32px;
+}
+
+#writing-section{
+    /* max-width: 1348px; */
+    margin: auto;
+    padding: 32px 64px;
+}
+#writing{
+    font-size: 36px;
+    font-weight: 800;
+    color: #ffffff;
+}
+.first-article{
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.info-1{
+    max-width: 832px;
+}
+.info-1 h6{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: white;
+}
+.info-1 p{
+    color: rgb(160, 174, 192);
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+}
+.f-a-bg{
+    width: 356px;
+    height: 232px;
+    border-radius: 2px;
+    background-image: url(./assets/writing/first.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.second-article{
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.info-2{
+    max-width: 832px;
+}
+.info-2 h6{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: white;
+}
+.info-2 p{
+    color: rgb(160, 174, 192);
+    font-family: 'rubik', sans-serif;
+    font-size: 18px;
+}
+.s-a-bg{
+    width: 356px;
+    height: 232px;
+    border-radius: 2px;
+    background-image: url(./assets/writing/second.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+/* footer Section */
+
+
+
 .footer hr{
     opacity: 0.1;
     color: #8E8E93;
@@ -311,6 +397,12 @@ body{
 .social .bottom-icons i{
     padding: 10px;
 }
+
+
+
+/* About Page */
+
+
 
 .me-section{
     margin: 0px 64px;
