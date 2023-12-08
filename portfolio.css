@@ -911,6 +911,9 @@ body{
 
 }
 @media (max-width: 688px) {
+    .header{
+        padding: 20px 16px;
+    }
     .icons{
         display: inline-flex;
     }
