@@ -164,6 +164,7 @@ body{
     background-repeat: no-repeat;
     background-origin: content-box;
     margin-bottom: 32px;
+    border-radius: 2px;
 }
 #moneytracker h6{
     font-size: 30px;
@@ -201,6 +202,7 @@ body{
     background-repeat: no-repeat;
     background-origin: content-box;
     margin-bottom: 32px;
+    border-radius: 2px;
 }
 
 
@@ -225,6 +227,7 @@ body{
     background-repeat: no-repeat;
     background-origin: content-box;
     margin-bottom: 32px;
+    border-radius: 2x;
 }
 #isro h6{
     font-size: 30px;
@@ -262,6 +265,7 @@ body{
     background-repeat: no-repeat;
     background-origin: content-box;
     margin-bottom: 32px;
+    border-radius: 2px;
 }
 
 
@@ -315,6 +319,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-origin: content-box;
+    border-radius: 2px;
 }
 .second-article{
     padding: 32px 0px;
@@ -345,6 +350,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-origin: content-box;
+    border-radius: 2px;
 }
 
 /* footer Section */
@@ -422,6 +428,7 @@ body{
     width: 350px;
     height: 100%;
     object-fit: cover;
+    border-radius: 2px;
 }
 .myself{
     margin-left: 64px;
@@ -501,6 +508,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 32px;
+        border-radius: 2px;
     }
     #website .img{
         height: 370px;
@@ -510,6 +518,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 32px;
+        border-radius: 2px;
     }
 
     #isro .img{
@@ -520,6 +529,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 32px;
+        border-radius: 2px;
     }
     #covid .img{
         height: 370px;
@@ -529,6 +539,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 32px;
+        border-radius: 2px;
     }
     /* writing section */
 
@@ -541,6 +552,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-origin: content-box;
+        border-radius: 2px;
     }
     #s-a-bg{
         width: 26%;
@@ -550,6 +562,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-origin: content-box;
+        border-radius: 2px;
     }
 
 
@@ -566,6 +579,7 @@ body{
         width: 400px;
         height: 500px;
         object-fit: cover;
+        border-radius: 2px;
     }
     .myself{
         font-size: 16px;
@@ -631,6 +645,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 24px;
+        border-radius: 2px;
     }
     #moneytracker h6{
         font-size: 30px;
@@ -656,6 +671,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 24px;
+        border-radius: 2px;
     }
     #website h6{
         font-size: 30px;
@@ -686,6 +702,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 24px;
+        border-radius: 2px;
     }
     #isro h6{
         font-size: 30px;
@@ -711,6 +728,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 24px;
+        border-radius: 2px;
     }
     #covid h6{
         font-size: 30px;
@@ -773,6 +791,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-origin: content-box;
+        border-radius: 2px;
     }
     .second-article{
         padding: 16px 0px;
@@ -803,6 +822,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-origin: content-box;
+        border-radius: 2px;
     }
 
 
@@ -830,6 +850,7 @@ body{
         display: block;
         margin: auto;
         margin-bottom: 32px;
+        border-radius: 2px;
     }
     .myself{
         margin: 0px 32px;
@@ -981,6 +1002,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 16px;
+        border-radius: 2px;
     }
     #moneytracker h6{
         font-size: 26px;
@@ -1006,6 +1028,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 16px;
+        border-radius: 2px;
     }
     #website h6{
         font-size: 26px;
@@ -1035,6 +1058,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 16px;
+        border-radius: 2px;
     }
     #isro h6{
         font-size: 26px;
@@ -1060,6 +1084,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 16px;
+        border-radius: 2px;
 
     }
     #covid h6{
@@ -1121,6 +1146,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 16px;
+        border-radius: 2px;
     }
     .second-article{
         padding: 16px 0px;
@@ -1151,6 +1177,7 @@ body{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-bottom: 16px;
+        border-radius: 2px;
     }
 
 
@@ -1174,7 +1201,7 @@ body{
         display: block;
         margin: auto;
         margin-bottom: 32px;
-        /* border-radius: 2px; */
+        border-radius: 2px;
     }
     .myself{
         margin: 0px 16px;
