@@ -15,7 +15,7 @@ main{
     min-height: 100vh;
 }
 .cover-mt{
-    background-image: url(/assets/moneytracker/Moneytacker-main.jpg);
+    background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
     height: 464px;
     background-size: cover;
     background-position: center;
