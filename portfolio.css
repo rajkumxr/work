@@ -133,8 +133,7 @@ body{
 #scroll{
     height: 100%;
     width: 100%;
-    padding-top: 120px;
-
+    padding-top: 112px;
 }
 #selected{
     font-size: 36px;
