@@ -62,7 +62,7 @@ main{
 
 }
 #upper-com{
-    margin: 32px 8px;
+    margin: 32px 0px;
 }
 #head{
     font-size: 42px;
@@ -147,7 +147,7 @@ main{
     padding: 32px 8px;
 } */
 #problem-s{
-    margin: 32px 8px;
+    margin: 32px 0px;
 }
 #problem-s h6{
     font-size: 30px;
@@ -158,6 +158,7 @@ main{
 #problem-s h6:hover::after{
     content: "#";
     color: #3182ce;
+    font-weight: 600;
 }
 #problem-s p{
     font-size: 18px;
@@ -171,4 +172,223 @@ main{
     background-repeat: no-repeat;
     background-origin: content-box;
     margin-top: 16px;
+}
+
+
+#solution{
+    margin: 32px 0px;
+}
+#solution h6{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 16px;
+}
+#solution h6:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+
+
+
+/* small desktop */
+
+
+@media (max-width: 1312px) {
+    .cover-mt{
+        background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
+        height: 302px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+    }
+    #main-container{
+        max-width: 972px;
+        margin: auto;
+        /* padding: 32px 8px; */
+        width: 100%;
+    }
+    .design-goal{
+        height: 112px;
+        background-image: url(./assets/moneytracker/design-goal.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+    }
+}
+
+
+
+/* Tablet */
+
+@media (max-width: 992px) {
+    #main-container{
+        max-width: 972px;
+        margin: auto;
+        padding: 0px 32px;
+        width: 100%;
+    }
+    #side-navbar{
+        display: none;
+    }
+    .design-goal{
+        height: 104px;
+        background-image: url(./assets/moneytracker/design-goal.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+    }
+}
+
+
+/* Mobile */
+
+
+@media (max-width: 688px) {
+    #main-container{
+        max-width: 972px;
+        margin: auto;
+        padding: 0px 16px;
+        width: 100%;
+    }
+    .cover-mt{
+        background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+    }
+    #upper-com{
+        margin: 16px 0px;
+    }
+    #head{
+        font-size: 36px;
+        font-weight: 800;
+        margin-bottom: 12px;
+        color: white;
+    }
+    .cs{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(203, 213, 224);
+        font-family: 'rubik', sans-serif;
+        margin-bottom: 12px;
+    }
+    .po{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        font-family: 'rubik', sans-serif;
+        margin-bottom: 16px;
+    }
+    #project-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 16px;
+    }
+    .r-r{
+        min-width: 100%;
+        margin-bottom: 16px;
+    }
+    .p-c{
+        min-width: 100%;
+        margin-bottom: 16px;
+    }
+    .tools{
+        min-width: 100%;
+        margin-bottom: 16px;
+    }
+    .r-r h6{
+        font-size: 24px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 8px;
+    }
+    .r-r p{
+        font-size: 16px;
+        color: rgb(160, 174, 192);
+    }
+    .p-c h6{
+        font-size: 24px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 8px;
+    }
+    .p-c p{
+        font-size: 16px;
+        color: rgb(160, 174, 192);
+    }
+    .tools h6{
+        font-size: 24px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 8px;
+    }
+    .tools p{
+        font-size: 16px;
+        color: rgb(160, 174, 192);
+    }
+    .why-i{
+        font-family: 'rubik', sans-serif;
+        font-size: 18px;
+        color: white;
+        /* margin-bottom: 24px; */
+    }
+    .line{
+        opacity: 0.1;
+        color: #8E8E93;
+    }
+
+
+    #problem-s{
+        margin: 16px 0px;
+    }
+    #problem-s h6{
+        font-size: 24px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 8px;
+    }
+    #problem-s h6:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    #problem-s p{
+        font-size: 16px;
+        color: rgb(160, 174, 192);
+    }
+    .design-goal{
+        height: 48px;
+        background-image: url(./assets/moneytracker/design-goal.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+    }
+
+
+    #solution{
+        margin: 16px 0px;
+    }
+    #solution h6{
+        font-size: 24px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 8px;
+    }
+    #solution h6:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
 }
