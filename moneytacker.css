@@ -259,7 +259,7 @@ main{
     }
     .cover-mt{
         background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
-        height: 180px;
+        height: 236px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -367,13 +367,14 @@ main{
         color: rgb(160, 174, 192);
     }
     .design-goal{
-        height: 48px;
+        display: none;
+        /* height: 48px;
         background-image: url(./assets/moneytracker/design-goal.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         background-origin: content-box;
-        margin-top: 16px;
+        margin-top: 16px; */
     }
 
 
