@@ -24,7 +24,7 @@ main{
 }
 #side-navbar{
     position: fixed;
-    top: 264px;
+    top: 248px;
     left: 0;
     /* bottom: 50%; */
     max-width: 170px;
@@ -156,7 +156,7 @@ main{
     font-size: 30px;
     font-weight: 800;
     color: white;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 #problem-s h6:hover::after{
     content: "#";
@@ -175,6 +175,7 @@ main{
     background-repeat: no-repeat;
     background-origin: content-box;
     margin-top: 16px;
+    border-radius: 2px;
 }
 
 
@@ -185,7 +186,7 @@ main{
     font-size: 30px;
     font-weight: 800;
     color: white;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 #sol-h:hover::after{
     content: "#";
@@ -313,7 +314,139 @@ main{
 }
 
 
+#my-ap{
+    padding: 32px 0px;
+}
+#ap-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#ap-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+.ap-bg{
+    height: 280px;
+    background-image: url(./assets/moneytracker/my-approach.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-top: 16px;
+    border-radius: 2px;
+}
 
+
+#research-sec{
+    padding: 32px 0px;
+}
+#re-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#re-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+.re-subh{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+.end-users{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+
+
+
+#insights{
+    padding: 32px 0px;
+}
+#in-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#in-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+#insights p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+.in-bg{
+    height: 680px;
+    background-image: url(./assets/moneytracker/re-insights.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
+#other-meth{
+    height: 280px;
+    background-image: url(./assets/moneytracker/my-approach.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-top: 16px;
+    border-radius: 2px;
+}
+
+
+#design-sec{
+    padding: 32px 0px;
+}
+#de-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#de-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+#design-sec p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+#wireframes{
+    height: 608px;
+    background-image: url(./assets/moneytracker/wireframes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-top: 16px;
+    border-radius: 2px;
+}
+#low-fi{
+    height: 1248px;
+    background-image: url(./assets/moneytracker/low-fidelity.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-top: 16px;
+    border-radius: 2px;
+}
 /* small desktop */
 
 
@@ -365,6 +498,56 @@ main{
         background-repeat: no-repeat;
         background-origin: content-box;
         margin-top: 16px;
+    }
+    .ap-bg{
+        height: 180px;
+        background-image: url(./assets/moneytracker/my-approach.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
+    }
+    #other-meth{
+        height: 208px;
+        background-image: url(./assets/moneytracker/my-approach.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
+    }
+    .in-bg{
+    height: 508px;
+    background-image: url(./assets/moneytracker/re-insights.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    }
+    #wireframes{
+        height: 364px;
+        background-image: url(./assets/moneytracker/wireframes.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
+    }
+    #low-fi{
+        height: 816px;
+        background-image: url(./assets/moneytracker/low-fidelity.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
     }
 }
 
@@ -623,6 +806,142 @@ main{
         color: rgb(160, 174, 192);
         margin-bottom: 8px;
         min-width: auto;
+    }
+
+
+    #my-ap{
+        padding: 16px 0px;
+    }
+    #ap-head{
+        font-size: 26px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #ap-head:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    .ap-bg{
+        height: 88px;
+        background-image: url(./assets/moneytracker/my-approach.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
+    }
+    
+    
+    #research-sec{
+        padding: 16px 0px;
+    }
+    #re-head{
+        font-size: 26px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #re-head:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    .re-subh{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 12px;
+    }
+    .end-users{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 8px;
+    }
+    #other-meth{
+        height: 88px;
+        background-image: url(./assets/moneytracker/my-approach.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
+    }
+    
+    
+    
+    #insights{
+        padding: 16px 0px;
+    }
+    #in-head{
+        font-size: 26px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #in-head:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    #insights p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 16px;
+    }
+    .in-bg{
+        height: 248px;
+        background-image: url(./assets/moneytracker/re-insights.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+
+
+
+    #design-sec{
+        padding: 16px 0px;
+    }
+    #de-head{
+        font-size: 26px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #de-head:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    #design-sec p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 16px;
+    }
+    #wireframes{
+        height: 180px;
+        background-image: url(./assets/moneytracker/wireframes.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
+    }
+    #low-fi{
+        height: 380px;
+        background-image: url(./assets/moneytracker/low-fidelity.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
     }
     
 }
