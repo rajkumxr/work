@@ -65,9 +65,9 @@ body{
     cursor: pointer;
     display: none;
 }
-/* .main{
+.main{
     height: 100vh;
-} */
+} 
 #memoji{
     display: flex;
     align-items: center;
@@ -130,15 +130,15 @@ body{
     font-size: 24px;
     padding-left: 4px;
 }
-#scroll{
+/* #scroll{
     height: 100%;
     width: 100%;
     padding-top: 112px;
-}
+} */
 #selected{
     font-size: 36px;
     font-weight: 800;
-    margin: 0px 64px 32px;
+    margin: 32px 64px;
     color: #ffffff;
 }
 

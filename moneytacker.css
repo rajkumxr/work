@@ -381,7 +381,7 @@ main{
     }
     .cover-mt{
         background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
-        height: 236px;
+        height: 256px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
