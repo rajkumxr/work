@@ -824,7 +824,7 @@ main{
         font-weight: 600;
     }
     .ap-bg{
-        height: 88px;
+        height: 96px;
         background-image: url(./assets/moneytracker/my-approach.jpg);
         background-size: cover;
         background-position: center;
@@ -924,7 +924,7 @@ main{
         margin-bottom: 16px;
     }
     #wireframes{
-        height: 180px;
+        height: 208px;
         background-image: url(./assets/moneytracker/wireframes.jpg);
         background-size: cover;
         background-position: center;
@@ -934,7 +934,7 @@ main{
         border-radius: 2px;
     }
     #low-fi{
-        height: 380px;
+        height: 448px;
         background-image: url(./assets/moneytracker/low-fidelity.jpg);
         background-size: cover;
         background-position: center;
