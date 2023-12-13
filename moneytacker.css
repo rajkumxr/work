@@ -150,7 +150,7 @@ main{
     padding: 32px 8px;
 } */
 #problem-s{
-    margin: 32px 0px;
+    padding: 32px 0px;
 }
 #problem-s h6{
     font-size: 30px;
@@ -179,15 +179,15 @@ main{
 
 
 #solution{
-    margin: 32px 0px;
+    padding: 32px 0px;
 }
-#solution #sol-h{
+#sol-h{
     font-size: 30px;
     font-weight: 800;
     color: white;
     margin-bottom: 16px;
 }
-#solution #sol-h:hover::after{
+#sol-h:hover::after{
     content: "#";
     color: #3182ce;
     font-weight: 600;
@@ -199,12 +199,12 @@ main{
     margin-bottom: 32px;
 }
 #sol-v1{
-    width: 30%
+    width: 40%
 }
 #sol-info1{
-    width:60%
+    width: 50%
 }
-#sol-v1 video{
+#sol-v1{
     width: 316px;
     height: auto;
     border-radius: 2px;
@@ -229,12 +229,12 @@ main{
     margin-bottom: 32px;
 }
 #sol-v2{
-    width: 30%
+    width: 40%
 }
 #sol-info2{
-    width: 60%
+    width: 50%
 }
-#sol-v2 video{
+#sol-v2{
     width: 316px;
     height: auto;
     border-radius: 2px;
@@ -259,12 +259,12 @@ main{
     margin-bottom: 32px;
 }
 #sol-v3{
-    width: 30%
+    width: 40%
 }
 #sol-info3{
-    width: 60%
+    width: 50%
 }
-#sol-v3 video{
+#sol-v3{
     width: 316px;
     height: auto;
     border-radius: 2px;
@@ -290,12 +290,12 @@ main{
     margin-bottom: 32px;
 }
 #sol-v4{
-    width: 30%
+    width: 40%
 }
 #sol-info4{
-    width: 60%
+    width: 50%
 }
-#sol-v4 video{
+#sol-v4{
     width: 316px;
     height: auto;
     border-radius: 2px;
@@ -471,10 +471,10 @@ main{
 
 
     #problem-s{
-        margin: 16px 0px;
+        padding: 16px 0px;
     }
     #problem-s h6{
-        font-size: 24px;
+        font-size: 26px;
         font-weight: 800;
         color: white;
         margin-bottom: 8px;
@@ -501,17 +501,128 @@ main{
 
 
     #solution{
-        margin: 16px 0px;
+        padding: 16px 0px;
     }
-    #solution h6{
-        font-size: 24px;
+    #sol-h{
+        font-size: 26px;
         font-weight: 800;
         color: white;
         margin-bottom: 8px;
     }
-    #solution h6:hover::after{
+    #sol-h:hover::after{
         content: "#";
         color: #3182ce;
         font-weight: 600;
     }
+    .sol-1{
+        display: block;
+        margin-bottom: 16px;
+        min-width: 100%;
+    }
+    #sol-v1{
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+        margin-bottom: 8px;
+    }
+    #sol-info1{
+        min-width: 100%;
+    }
+    #sol-info1 h6{
+        display: block;
+        font-size: 24px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #sol-info1 p{
+        display: block;
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 8px;
+    }
+
+
+    .sol-2{
+        display: block;
+        margin-bottom: 16px;
+        min-width: 100%;
+    }
+    #sol-v2{
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+        margin-bottom: 8px;
+    }
+    #sol-info2{
+        min-width: 100%;
+    }
+    #sol-info2 h6{
+        font-size: 28px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #sol-info2 p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 8px;
+    }
+
+
+    .sol-3{
+        display: block;
+        margin-bottom: 16px;
+        min-width: 100%;
+    }
+    #sol-v3{
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+        margin-bottom: 8px;
+    }
+    #sol-info3{
+        min-width: 100%;
+    }
+    #sol-info3 h6{
+        font-size: 28px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #sol-info3 p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 8px;
+    }
+    
+
+    .sol-4{
+        display: block;
+        margin-bottom: 16px;
+        min-width: 100%;
+    }
+    #sol-v4{
+        width: 100%;
+        height: auto;
+        border-radius: 2px;
+        margin-bottom: 8px;
+    }
+    #sol-info4{
+        min-width: 100%;
+    }
+    #sol-info4 h6{
+        font-size: 28px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+        min-width: 100%;
+    }
+    #sol-info4 p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 8px;
+        min-width: auto;
+    }
+    
 }
