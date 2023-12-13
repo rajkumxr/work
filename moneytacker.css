@@ -181,16 +181,135 @@ main{
 #solution{
     margin: 32px 0px;
 }
-#solution h6{
+#solution #sol-h{
     font-size: 30px;
     font-weight: 800;
     color: white;
     margin-bottom: 16px;
 }
-#solution h6:hover::after{
+#solution #sol-h:hover::after{
     content: "#";
     color: #3182ce;
     font-weight: 600;
+}
+.sol-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+#sol-v1{
+    width: 30%
+}
+#sol-info1{
+    width:60%
+}
+#sol-v1 video{
+    width: 316px;
+    height: auto;
+    border-radius: 2px;
+}
+#sol-info1 h6{
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 16px;
+}
+#sol-info1 p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 8px;
+}
+
+.sol-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+#sol-v2{
+    width: 30%
+}
+#sol-info2{
+    width: 60%
+}
+#sol-v2 video{
+    width: 316px;
+    height: auto;
+    border-radius: 2px;
+}
+#sol-info2 h6{
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 16px;
+}
+#sol-info2 p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 8px;
+}
+
+
+.sol-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+#sol-v3{
+    width: 30%
+}
+#sol-info3{
+    width: 60%
+}
+#sol-v3 video{
+    width: 316px;
+    height: auto;
+    border-radius: 2px;
+}
+#sol-info3 h6{
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 16px;
+}
+#sol-info3 p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 8px;
+}
+
+
+.sol-4{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+#sol-v4{
+    width: 30%
+}
+#sol-info4{
+    width: 60%
+}
+#sol-v4 video{
+    width: 316px;
+    height: auto;
+    border-radius: 2px;
+}
+#sol-info4 h6{
+    font-size: 28px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 16px;
+}
+#sol-info4 p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 8px;
 }
 
 
