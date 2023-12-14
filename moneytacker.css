@@ -366,6 +366,27 @@ main{
 }
 
 
+.questions{
+    padding: 32px 0px;
+}
+#q-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#q-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+.questions p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+
+
 
 #insights{
     padding: 32px 0px;
@@ -438,7 +459,7 @@ main{
     border-radius: 2px;
 }
 #low-fi{
-    height: 1248px;
+    height: 1208px;
     background-image: url(./assets/moneytracker/low-fidelity.jpg);
     background-size: cover;
     background-position: center;
@@ -446,6 +467,185 @@ main{
     background-origin: content-box;
     margin-top: 16px;
     border-radius: 2px;
+}
+
+
+#proto-sec{
+    padding: 32px 0px;
+}
+#pr-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#pr-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+#proto-sec p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 16px;
+}
+#pr-link{
+    margin: auto;
+    width: max-content;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+    font-family: 'rubik', sans-serif;
+    padding: 12px 16px;
+    border-radius: 2px;
+    background-image: linear-gradient(#3f78e1, #0b50c0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    text-decoration: none;
+}
+#pr-link:hover{
+    background-image: linear-gradient(#2d67d3, #0b47a8);
+    cursor: pointer;
+}
+#pr-link #arrow-up{
+    font-size: 22px;
+    padding-left: 4px;
+}
+.proto-bg{
+    height: 464px;
+    background-image: url(./assets/moneytracker/prototype.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-top: 16px;
+    border-radius: 2px;
+}
+
+
+
+#eva-sec{
+    padding: 32px 0px;
+}
+#ev-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#ev-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+.usa-test{
+    height: 564px;
+    background-image: url(./assets/moneytracker/ut-results.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-bottom: 16px;
+    border-radius: 2px;
+}
+.ut-info{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+.observe{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.ut-res{
+    height: 564px;
+    background-image: url(./assets/moneytracker/ut-results.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    margin-top: 16px;
+    border-radius: 2px;
+}
+
+
+
+#my-learn{
+    padding: 32px 0px;
+}
+#lr-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#lr-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+#my-learn p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+
+
+#next-st{
+    padding: 32px 0px;
+}
+#ns-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#ns-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+#next-st p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+
+
+
+#finish{
+    padding: 32px 0px 64px;
+}
+#fn-head{
+    font-size: 36px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#back-to-all{
+    margin: auto;
+    width: max-content;
+    font-weight: 500;
+    color: rgb(160, 174, 192);
+    font-size: 20px;
+    font-family: 'rubik', sans-serif;
+    padding: 2px 4px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(99, 179, 237);
+}
+#back-to-all #arrow-right{
+    font-size: 24px;
+    padding-left: 4px;
 }
 /* small desktop */
 
@@ -859,16 +1059,29 @@ main{
         color: rgb(160, 174, 192);
         margin-bottom: 8px;
     }
-    #other-meth{
-        height: 88px;
-        background-image: url(./assets/moneytracker/my-approach.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-origin: content-box;
-        margin-top: 16px;
-        border-radius: 2px;
+
+
+
+    .questions{
+        padding: 16px 0px;
     }
+    #q-head{
+        font-size: 26px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #q-head:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    .questions p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 16px;
+    }
+
     
     
     
@@ -900,6 +1113,16 @@ main{
         background-origin: content-box;
         border-radius: 2px;
         margin-bottom: 16px;
+    }
+    #other-meth{
+        height: 88px;
+        background-image: url(./assets/moneytracker/my-approach.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        margin-top: 16px;
+        border-radius: 2px;
     }
 
 
