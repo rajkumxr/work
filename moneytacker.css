@@ -513,7 +513,7 @@ main{
 }
 #proto-sec p{
     font-size: 18px;
-    color: white;
+    color: rgb(160, 174, 192);
     margin-bottom: 16px;
 }
 #pr-link{
@@ -583,7 +583,7 @@ main{
     margin-bottom: 16px;
 }
 .observe{
-    color: white;
+    color: rgb(160, 174, 192);
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -616,7 +616,7 @@ main{
 }
 #my-learn p{
     font-size: 18px;
-    color: white;
+    color: rgb(160, 174, 192);;
     margin-bottom: 16px;
 }
 
@@ -1241,7 +1241,7 @@ main{
     }
     #proto-sec p{
         font-size: 18px;
-        color: white;
+        color: rgb(160, 174, 192);
         margin-bottom: 32px;
     }
     #pr-link{
@@ -1311,7 +1311,7 @@ main{
         margin-bottom: 16px;
     }
     .observe{
-        color: white;
+        color: rgb(160, 174, 192);
         font-size: 18px;
         margin-bottom: 16px;
     }
@@ -1344,7 +1344,7 @@ main{
     }
     #my-learn p{
         font-size: 18px;
-        color: white;
+        color: rgb(160, 174, 192);
         margin-bottom: 16px;
     }
     
