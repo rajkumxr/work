@@ -14,7 +14,7 @@ html{
 main{
     min-height: 100vh;
 }
-.cover-mt{
+#cover-mt{
     background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
     height: 464px;
     background-size: cover;
@@ -56,6 +56,44 @@ main{
 }
 .inner-nav a:hover{
     color: #317df7;
+}
+
+
+#back-to-top{
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    /* bottom: 50%; */
+    max-width: 170px;
+    height: min-content;
+    background-color: rgb(16, 23, 44);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 12px 24px; */
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.345) 0px 2px 40px 0px;
+    text-decoration: none;
+    transition-timing-function: ease-in;
+    transition-duration: 8s;
+}
+#back-to-top:hover{
+    background-color: rgba(16, 26, 68, 0.734);
+    transition-timing-function: ease-in;
+    transition-duration: 8s;
+}
+#back-to-top:hover::after{
+    content: "Back to top";
+    padding: 0px 16px 0px 0px;
+    color: white;
+    transition-timing-function: ease-in;
+    transition-duration: 8s;
+}
+#arrow-up2{
+    padding: 12px;
+    font-size: 24px;
+    color: white;
 }
 #main-container{
     max-width: 1116px;
@@ -651,7 +689,7 @@ main{
 
 
 @media (max-width: 1312px) {
-    .cover-mt{
+    #cover-mt{
         background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
         height: 302px;
         background-size: cover;
@@ -792,9 +830,9 @@ main{
         padding: 0px 16px;
         width: 100%;
     }
-    .cover-mt{
+    #cover-mt{
         background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
-        height: 256px;
+        height: 280px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
