@@ -909,6 +909,12 @@ body{
     }
 
 }
+
+
+
+
+
+
 @media (max-width: 688px) {
     .header{
         padding: 20px 16px;
@@ -957,9 +963,9 @@ body{
     .footer{
         margin: 0px 16px;
     }
-    /* .main{
+    .main{
         height: 100vh;
-    } */
+    }
     #memoji-photo{
         height: 264px;
         width: 264px;
@@ -997,7 +1003,7 @@ body{
         text-decoration: none;
     }
     #moneytracker .img{
-        height: 248px;
+        height: 256px;
         background-image: url(./assets/Moneytracker.jpg);
         background-size: cover;
         background-position: center;
@@ -1023,7 +1029,7 @@ body{
         text-decoration: none;
     }
     #website .img{
-        height: 248px;
+        height: 256px;
         background-image: url(./assets/Website.jpg);
         background-size: cover;
         background-position: center;
@@ -1053,7 +1059,7 @@ body{
         text-decoration: none;
     }
     #isro .img{
-        height: 248px;
+        height: 256px;
         background-image: url(./assets/bg.jpg);
         background-size: cover;
         background-position: center;
@@ -1079,7 +1085,7 @@ body{
         text-decoration: none;
     }
     #covid .img{
-        height: 248px;
+        height: 256px;
         background-image: url(./assets/Bg\ covid.jpg);
         background-size: cover;
         background-position: center;
@@ -1141,7 +1147,7 @@ body{
     }
     #f-a-bg {
         width: 100%;
-        height: 236px;
+        height: 248px;
         background-image: url(./assets/writing/first.jpg);
         background-size: cover;
         background-position: center;
@@ -1172,7 +1178,7 @@ body{
     }
     #s-a-bg{
         width: 100%;
-        height: 236px;
+        height: 248px;
         background-image: url(./assets/writing/second.jpg);
         background-size: cover;
         background-position: center;

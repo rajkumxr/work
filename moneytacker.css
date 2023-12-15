@@ -446,7 +446,7 @@ main{
 }
 #other-meth{
     height: 280px;
-    background-image: url(./assets/moneytracker/my-approach.jpg);
+    background-image: url(./assets/moneytracker/p-ca-jm.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -717,6 +717,31 @@ main{
     #side-navbar{
         display: none;
     }
+    #back-to-top{
+        position: fixed;
+        bottom: 32px;
+        right: 32px;
+        /* bottom: 50%; */
+        /* max-width: 170px; */
+        height: min-content;
+        background-color: rgb(14, 18, 40);
+        border-radius: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding: 12px 24px; */
+        z-index: 100;
+        box-shadow: rgba(0, 0, 0, 0.345) 0px 2px 40px 0px;
+        text-decoration: none;
+    }
+    #back-to-top:hover{
+        background-color: rgb(25, 30, 55);
+    }
+    #arrow-up2{
+        padding: 20px;
+        font-size: 26px;
+        color: white;
+    }
     .design-goal{
         height: 104px;
         background-image: url(./assets/moneytracker/design-goal.png);
@@ -819,6 +844,34 @@ main{
         padding: 0px 16px;
         width: 100%;
     }
+    #back-to-top{
+        position: fixed;
+        bottom: 32px;
+        right: 32px;
+        /* bottom: 50%; */
+        /* max-width: 170px; */
+        height: min-content;
+        background-color: rgb(14, 18, 40);
+        border-radius: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding: 12px 24px; */
+        z-index: 100;
+        box-shadow: rgba(0, 0, 0, 0.345) 0px 2px 40px 0px;
+        text-decoration: none;
+    }
+    #back-to-top:hover{
+        background-color: rgb(25, 30, 55);
+    }
+    #arrow-up2{
+        padding: 20px;
+        font-size: 26px;
+        color: white;
+    }
+
+
+
     #cover-mt{
         background-image: url(./assets/moneytracker/Moneytacker-main.jpg);
         height: 280px;
