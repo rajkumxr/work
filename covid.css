@@ -24,7 +24,7 @@ main{
 }
 #side-navbar{
     position: fixed;
-    top: 264px;
+    top: 248px;
     left: 0;
     /* bottom: 50%; */
     max-width: 170px;
@@ -150,7 +150,7 @@ main{
     font-size: 30px;
     font-weight: 800;
     color: white;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 #problem-s h6:hover::after{
     content: "#";
@@ -164,19 +164,29 @@ main{
 }
 
 
-#solution{
+#tackling-tp{
     margin: 32px 0px;
 }
-#solution h6{
+#tackling-tp h6{
     font-size: 30px;
     font-weight: 800;
     color: white;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
-#solution h6:hover::after{
+#tackling-tp h6:hover::after{
     content: "#";
     color: #3182ce;
     font-weight: 600;
+}
+#tackling-bg{
+    height: 348px;
+    background-image: url(./assets/covid/tackling-tp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 2px;
+    margin-bottom: 16px;
 }
 
 
@@ -214,6 +224,16 @@ main{
     }
     #side-navbar{
         display: none;
+    }
+    #tackling-bg{
+        height: 224px;
+        background-image: url(./assets/covid/tackling-tp.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
     }
 }
 
@@ -296,7 +316,6 @@ main{
     .p-c p{
         font-size: 16px;
         color: rgb(160, 174, 192);
-        margin-bottom: 8px;
     }
     .tools h6{
         font-size: 24px;
@@ -334,18 +353,28 @@ main{
     }
 
 
-    #solution{
+    #tackling-tp{
         margin: 16px 0px;
     }
-    #solution h6{
+    #tackling-tp h6{
         font-size: 24px;
         font-weight: 800;
         color: white;
         margin-bottom: 8px;
     }
-    #solution h6:hover::after{
+    #tackling-tp h6:hover::after{
         content: "#";
         color: #3182ce;
         font-weight: 600;
+    }
+    #tackling-bg{
+        height: 132px;
+        background-image: url(./assets/covid/tackling-tp.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
     }
 }
