@@ -178,6 +178,11 @@ main{
     color: #3182ce;
     font-weight: 600;
 }
+#tackling-tp p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
 #tackling-bg{
     height: 348px;
     background-image: url(./assets/covid/tackling-tp.jpg);
@@ -189,6 +194,110 @@ main{
     margin-bottom: 16px;
 }
 
+
+
+#research-sec{
+    margin: 32px 0px;
+}
+#re-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#re-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+#research-sec p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+#re-bg{
+    height: 816px;
+    background-image: url(./assets/covid/key-insights.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
+
+
+
+#ideation-sec{
+    margin: 32px 0px;
+}
+#id-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#id-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+#hmw-head{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 24px;
+}
+#hmw-q{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    /* margin-bottom: 16px; */
+}
+#hmw-q p{
+    margin-bottom: 16px;
+}
+
+
+
+#task-sec{
+    margin: 32px 0px;
+}
+#ta-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 32px;
+}
+#ta-head:hover::after{
+    content: "#";
+    color: #3182ce;
+    font-weight: 600;
+}
+#task-sec p{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+#em-task{
+    height: 308px;
+    background-image: url(./assets/covid/em-task.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
+#ma-task{
+    height: 308px;
+    background-image: url(./assets/covid/ma-task.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
 
 
 /* small desktop */
@@ -228,6 +337,36 @@ main{
     #tackling-bg{
         height: 224px;
         background-image: url(./assets/covid/tackling-tp.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    #re-bg{
+        height: 516px;
+        background-image: url(./assets/covid/key-insights.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    #em-task{
+        height: 216px;
+        background-image: url(./assets/covid/em-task.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    #ma-task{
+        height: 216px;
+        background-image: url(./assets/covid/ma-task.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -367,9 +506,115 @@ main{
         color: #3182ce;
         font-weight: 600;
     }
+    #tackling-tp p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 16px;
+    }
     #tackling-bg{
         height: 132px;
         background-image: url(./assets/covid/tackling-tp.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    #research-sec{
+        margin: 16px 0px;
+    }
+    #re-head{
+        font-size: 24px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 8px;
+    }
+    #re-head:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    #research-sec p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 16px;
+    }
+    #re-bg{
+        height: 288px;
+        background-image: url(./assets/covid/key-insights.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+
+
+
+    #ideation-sec{
+        margin: 16px 0px;
+    }
+    #id-head{
+        font-size: 26px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #id-head:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    #hmw-head{
+        font-size: 22px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 12px;
+    }
+    #hmw-q{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+    }
+    #hmw-q p{
+        margin-bottom: 8px;
+    }
+    
+    
+    
+    #task-sec{
+        margin: 16px 0px;
+    }
+    #ta-head{
+        font-size: 26px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 16px;
+    }
+    #ta-head:hover::after{
+        content: "#";
+        color: #3182ce;
+        font-weight: 600;
+    }
+    #task-sec p{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 16px;
+    }
+    #em-task{
+        height: 104px;
+        background-image: url(./assets/covid/em-task.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    #ma-task{
+        height: 104px;
+        background-image: url(./assets/covid/ma-task.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
