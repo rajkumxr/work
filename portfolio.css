@@ -963,14 +963,14 @@ body{
         height: 100vh;
     }
     #memoji-photo{
-        height: 248px;
-        width: 248px;
+        height: 232px;
+        width: 232px;
     }
     .heading{
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 800;
         margin: 0px 16px;
-        min-height: 260px;
+        min-height: 248px;
     }
     .para{
         font-size: 18px;
