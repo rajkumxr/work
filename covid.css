@@ -251,9 +251,41 @@ main{
 #hmw-q{
     font-size: 18px;
     color: rgb(160, 174, 192);
-    /* margin-bottom: 16px; */
+    margin-bottom: 32px;
 }
 #hmw-q p{
+    margin-bottom: 16px;
+}
+
+#low-fi{
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 24px;
+}
+#lf-para{
+    font-size: 18px;
+    color: rgb(160, 174, 192);
+    margin-bottom: 16px;
+}
+#low-fi-app{
+    height: 1048px;
+    background-image: url(./assets/covid/low-fi-app.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 2px;
+    margin-bottom: 16px;
+}
+#low-fi-web{
+    height: 896px;
+    background-image: url(./assets/covid/low-fi-web.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    border-radius: 2px;
     margin-bottom: 16px;
 }
 

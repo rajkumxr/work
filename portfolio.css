@@ -88,9 +88,8 @@ body{
     font-size: 40px;
     font-weight: 800;
     margin:auto;
-    max-width: 1024px;
+    max-width: 932px;
     color: #ffffff;
-    text-align: center;
     min-height: 104px;
 }
 .para{
@@ -98,8 +97,7 @@ body{
     font-family: 'rubik', sans-serif;
     margin: auto;
     color: rgb(160, 174, 192);
-    max-width: 1024px;
-    text-align: center;
+    max-width: 932px;
     padding-bottom: 32px;
 }
 #navbutton{
@@ -605,20 +603,18 @@ body{
         padding: 20px 32px;
     }
     .heading{
-        font-size: 48px;
+        font-size: 44px;
         font-weight: 800;
-        text-align: center;
         margin: auto;
-        max-width: 664px;
-        min-height: 249px;
+        margin: 0px 32px;
+        min-height: 173px;
     }
     .para{
         font-size: 22px;
         font-family: 'rubik', sans-serif;
-        text-align: center;
         margin: auto;
+        margin: 0px 32px;
         color: rgb(160, 174, 192);
-        max-width: 664px;
     }
     #selected{
         font-size: 36px;
@@ -971,10 +967,10 @@ body{
         width: 264px;
     }
     .heading{
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 800;
         margin: 0px 16px;
-        min-height: 148px;
+        min-height: 173px;
     }
     .para{
         font-size: 18px;
