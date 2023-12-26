@@ -377,8 +377,28 @@ main{
         margin-bottom: 16px;
     }
     #re-bg{
-        height: 516px;
+        height: 532px;
         background-image: url(./assets/covid/key-insights.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    #low-fi-app{
+        height: 664px;
+        background-image: url(./assets/covid/low-fi-app.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    #low-fi-web{
+        height: 564px;
+        background-image: url(./assets/covid/low-fi-web.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -573,7 +593,7 @@ main{
         margin-bottom: 16px;
     }
     #re-bg{
-        height: 288px;
+        height: 280px;
         background-image: url(./assets/covid/key-insights.jpg);
         background-size: cover;
         background-position: center;
@@ -611,6 +631,38 @@ main{
     }
     #hmw-q p{
         margin-bottom: 8px;
+    }
+
+    #low-fi{
+        font-size: 22px;
+        font-weight: 800;
+        color: white;
+        margin-bottom: 24px;
+    }
+    #lf-para{
+        font-size: 18px;
+        color: rgb(160, 174, 192);
+        margin-bottom: 16px;
+    }
+    #low-fi-app{
+        height: 340px;
+        background-image: url(./assets/covid/low-fi-app.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
+    }
+    #low-fi-web{
+        height: 290px;
+        background-image: url(./assets/covid/low-fi-web.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+        border-radius: 2px;
+        margin-bottom: 16px;
     }
     
     
