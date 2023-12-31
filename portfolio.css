@@ -960,24 +960,25 @@ body{
         margin: 0px 16px;
     }
     .main{
-        height: 100vh;
+        min-height: 100vh;
+        padding: 0px 0px 32px;
     }
     #memoji-photo{
         height: 232px;
         width: 232px;
     }
     .heading{
-        font-size: 38px;
+        font-size: 36px;
         font-weight: 800;
         margin: 0px 16px;
-        min-height: 248px;
+        min-height: 228px;
     }
     .para{
         font-size: 18px;
         font-family: 'rubik', sans-serif;
         margin: 0px 16px;
         color: rgb(160, 174, 192);
-        padding-bottom: 16px;
+        padding-bottom: 32px;
     }
     #navbutton{
         padding: 48px;
