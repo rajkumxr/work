@@ -964,21 +964,21 @@ body{
         padding: 0px 0px 32px;
     }
     #memoji-photo{
-        height: 180px;
-        width: 180px;
+        height: 208px;
+        width: 208px;
     }
     .heading{
-        font-size: 30px;
+        font-size: 36px;
         font-weight: 800;
         margin: 0px 16px;
-        min-height: 196px;
+        min-height: 236px;
     }
     .para{
         font-size: 18px;
         font-family: 'rubik', sans-serif;
         margin: 0px 16px;
         color: rgb(160, 174, 192);
-        padding-bottom: 24px;
+        padding-bottom: 32px;
     }
     #navbutton{
         padding: 48px;
